@@ -1,5 +1,0 @@
-|Owner|Account|Pool|Amount|Currency|
-|100|1001|Savings|100|USD|
-|100|1002|Trading|200|USD|
-|200|2001|Savings|50|USD|
-|100|1003|Trading|1000|USD|
