@@ -12,8 +12,6 @@ public class TestParseClientMoneyFile extends BaseTestCase {
 
 
     public void testClientMoneyFileProcessing() throws Exception{
-        String DIRECTORY = "E:\\porasona\\Intellij\\BusinessApp\\src\\main\\resources\\";
-
         Map<Integer,Owner> ownerMap = new ParseClientMoneyFile().parseOwnerLookupFile(new File(DIRECTORY + "clientmoneyfiles/owner_lookup.txt"));
         assertEquals(ownerMap.size(), 2);
 
